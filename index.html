@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>text drawing</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      textarea {
+        margin-top: 15px;
+        height: 72px;
+        width: 400px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id='canvas'></div>
+    <textarea type='text' autofocus></textarea>
+  </body>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.min.js'></script>
+  <script src='./textdrawing.js'></script>
+</html>
